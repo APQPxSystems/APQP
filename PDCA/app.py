@@ -323,7 +323,7 @@ def main():
 if __name__ == '__main__':
     main()
 
-with open('PDCA\style.css') as f:
+with open('PDCA/style.css') as f:
     css = f.read()
 
 st.markdown(f'<style>{css}</style>', unsafe_allow_html=True)
